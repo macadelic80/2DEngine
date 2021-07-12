@@ -75,7 +75,7 @@ void handleEvents() {
 
 //simple render function
 void render() {
-	SDL_SetRenderDrawColor(renderer, 64, 245, 239, 128);
+	SDL_SetRenderDrawColor(renderer, 255, 0, 0, 128);
 	SDL_RenderClear(renderer);
 
 	//your stuff to render would typically go here.
